@@ -41,6 +41,40 @@ header {
   gap: 25px;
 }
 
-#requestD {
+#requestDemo {
   color: var(--primary);
+}
+
+#razorTitle {
+  color: white;
+  margin: auto;
+  margin-top: 80px;
+  width: fit-content;
+  font-size: 50px;
+}
+
+#razorP {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#containerButton {
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#buttonGS {
+  padding: 1rem 2rem 1rem 2rem;
+  color: black;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, var(--primary), var(--secondary));
+}
+
+#buttonSP {
+  color: white;
 }

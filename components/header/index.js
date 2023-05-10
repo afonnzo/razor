@@ -16,7 +16,7 @@ export function Header() {
       <div>
         <nav id="logar">
           <a>Sign in</a>
-          <a id="requestD">Request Demo</a>
+          <a id="requestDemo">Request Demo</a>
         </nav>
       </div>
     </header>
