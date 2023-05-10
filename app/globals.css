@@ -1,0 +1,46 @@
+:root {
+  --primary: #00c39a;
+  --secondary: #fdcf6d;
+  --bg: #121418;
+  --gray: #9f9fa1;
+  --grayLight: #acacae;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: var(--grayLight);
+}
+
+body {
+  background: var(--bg);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 60px 0px 60px;
+}
+
+#razor {
+  color: white;
+  font-size: 25px;
+  font: bold;
+}
+
+#listaH {
+  display: flex;
+  justify-content: space-around;
+  gap: 35px;
+}
+
+#logar {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+#requestD {
+  color: var(--primary);
+}
